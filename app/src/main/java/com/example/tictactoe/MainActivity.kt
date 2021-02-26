@@ -60,6 +60,45 @@ class MainActivity : AppCompatActivity() {
          btnSelect.isEnabled=false
 
 
+         checkWinner()
+
+
+    }
+
+    private fun checkWinner() {
+        var winner=-1
+        //row1
+        if(person1.contains(1)&& person1.contains(2)&&person1.contains(3)){
+            winner=1
+        }
+        if(person2.contains(1)&& person2.contains(2)&&person2.contains(3)){
+            winner=2
+        }
+
+        //row2
+        if(person1.contains(4)&& person1.contains(5)&&person1.contains(6)){
+            winner=1
+        }
+        if(person2.contains(4)&& person2.contains(5)&&person2.contains(6)){
+            winner=2
+        }
+
+        //row3
+        if(person1.contains(7)&& person1.contains(8)&&person1.contains(9)){
+            winner=1
+        }
+        if(person2.contains(7)&& person2.contains(8)&&person2.contains(9)){
+            winner=2
+        }
+
+        if(winner==1){
+            Toast.makeText(this,"Player 1 WON",Toast.LENGTH_LONG).show()
+        }
+        else{
+            Toast.makeText(this,"Player 2 is WON",Toast.LENGTH_LONG).show()
+        }
+
+
     }
 
 }
