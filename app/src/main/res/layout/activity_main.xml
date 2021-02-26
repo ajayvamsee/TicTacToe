@@ -19,25 +19,32 @@
             android:id="@+id/btn1"
             android:layout_width="40pt"
             android:layout_height="40pt"
-            android:onClick="btnPress" />
+            android:background="@color/white"
+            android:onClick="btnPress"
+            android:textColor="@color/black" />
 
         <Button
             android:id="@+id/btn2"
             android:layout_width="40pt"
             android:layout_height="40pt"
             android:layout_marginLeft="3pt"
-            android:onClick="btnPress" />
+            android:background="@color/white"
+            android:onClick="btnPress"
+            android:textColor="@color/black" />
 
         <Button
             android:id="@+id/btn3"
             android:layout_width="40pt"
             android:layout_height="40pt"
             android:layout_marginLeft="3pt"
-            android:onClick="btnPress" />
+            android:background="@color/white"
+            android:onClick="btnPress"
+            android:textColor="@color/black" />
     </TableRow>
 
     <TableRow
         android:gravity="center"
+        android:layout_marginTop="3pt"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         >
@@ -46,21 +53,27 @@
             android:id="@+id/btn4"
             android:layout_width="40pt"
             android:layout_height="40pt"
-            android:onClick="btnPress" />
+            android:background="@color/white"
+            android:onClick="btnPress"
+            android:textColor="@color/black" />
 
         <Button
             android:id="@+id/btn5"
             android:layout_width="40pt"
             android:layout_height="40pt"
             android:layout_marginLeft="3pt"
-            android:onClick="btnPress" />
+            android:background="@color/white"
+            android:onClick="btnPress"
+            android:textColor="@color/black" />
 
         <Button
             android:id="@+id/btn6"
             android:layout_width="40pt"
             android:layout_height="40pt"
             android:layout_marginLeft="3pt"
-            android:onClick="btnPress" />
+            android:background="@color/white"
+            android:onClick="btnPress"
+            android:textColor="@color/black" />
 
 
     </TableRow>
@@ -69,27 +82,34 @@
         android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="3pt"
         >
 
         <Button
             android:id="@+id/btn7"
             android:layout_width="40pt"
             android:layout_height="40pt"
-            android:onClick="btnPress" />
+            android:background="@color/white"
+            android:onClick="btnPress"
+            android:textColor="@color/black" />
 
         <Button
             android:id="@+id/btn8"
             android:layout_width="40pt"
             android:layout_height="40pt"
             android:layout_marginLeft="3pt"
-            android:onClick="btnPress" />
+            android:background="@color/white"
+            android:onClick="btnPress"
+            android:textColor="@color/black" />
 
         <Button
             android:id="@+id/btn9"
             android:layout_width="40pt"
             android:layout_height="40pt"
             android:layout_marginLeft="3pt"
-            android:onClick="btnPress" />
+            android:background="@color/white"
+            android:onClick="btnPress"
+            android:textColor="@color/black" />
 
     </TableRow>
 

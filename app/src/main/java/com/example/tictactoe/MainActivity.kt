@@ -133,7 +133,7 @@ class MainActivity : AppCompatActivity() {
         if(winner==1){
             Toast.makeText(this,"Player 1 WON",Toast.LENGTH_LONG).show()
         }
-        else{
+        else if(winner==2){
             Toast.makeText(this,"Player 2 is WON",Toast.LENGTH_LONG).show()
         }
 
