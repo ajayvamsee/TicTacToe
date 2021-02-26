@@ -91,6 +91,45 @@ class MainActivity : AppCompatActivity() {
             winner=2
         }
 
+        //col1
+        if(person1.contains(1)&& person1.contains(4)&&person1.contains(7)){
+            winner=1
+        }
+        if(person2.contains(1)&& person2.contains(4)&&person2.contains(7)){
+            winner=2
+        }
+        //col2
+        if(person1.contains(2)&& person1.contains(5)&&person1.contains(8)){
+            winner=1
+        }
+        if(person2.contains(2)&& person2.contains(5)&&person2.contains(8)){
+            winner=2
+        }
+        //col3
+        if(person1.contains(3)&& person1.contains(6)&&person1.contains(9)){
+            winner=1
+        }
+        if(person2.contains(3)&& person2.contains(8)&&person2.contains(9)){
+            winner=2
+        }
+
+        // for vertical rows1 at starting
+        if(person1.contains(1)&& person1.contains(5)&&person1.contains(9)){
+            winner=1
+        }
+        if(person2.contains(1)&& person2.contains(5)&&person2.contains(9)){
+            winner=2
+        }
+
+        // for vertical row1 at ending
+        if(person1.contains(3)&& person1.contains(5)&&person1.contains(7)){
+            winner=1
+        }
+        if(person2.contains(3)&& person2.contains(5)&&person2.contains(7)){
+            winner=2
+        }
+
+            // Announce Winner
         if(winner==1){
             Toast.makeText(this,"Player 1 WON",Toast.LENGTH_LONG).show()
         }
