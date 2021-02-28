@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
 
     fun btnPress(view: View){
 
-        var btnSelect:Button?
+        val btnSelect:Button?
         btnSelect = view as Button
         // just to know which button as been clicked here
         // Toast.makeText(this,"u selected btn is"+ btnSelect.id.toString(),Toast.LENGTH_SHORT).show()
@@ -76,7 +76,7 @@ class MainActivity : AppCompatActivity() {
     private fun playGame(cellId: Int, btnSelect: Button) {
 
         if(activePlayer==1){
-            player1Count += 1
+
             btnSelect.text="X"
             btnSelect.setBackgroundResource(R.color.blue)
             person1.add(cellId)
@@ -85,7 +85,7 @@ class MainActivity : AppCompatActivity() {
             autoPlay()
         }
         else{
-            player2Count += 1
+
             btnSelect.text="O"
             btnSelect.setBackgroundResource(R.color.green)
             person2.add(cellId)
@@ -192,9 +192,9 @@ class MainActivity : AppCompatActivity() {
         }
         val r = Random()
         val randIndex = r.nextInt(emptyCells.size)
-        var cellId = emptyCells[randIndex]
+        val cellId = emptyCells[randIndex]
 
-        var btnSelect: Button?
+        val btnSelect: Button?
         btnSelect = when(cellId) {
 
             1 -> btn1
@@ -217,20 +217,19 @@ class MainActivity : AppCompatActivity() {
 
 
 
-    var player1Count=0
-    var player2Count=0
+    private var player1Count=0
+    private var player2Count=0
 
 
 
 
-    fun restartGame(){
+  private  fun restartGame(){
         activePlayer=1
          person1.clear()
         person2.clear()
         for (cellId in 1..9){
 
-            var btnSelect: Button?
-            btnSelect = when(cellId) {
+            var btnSelect: Button? = when(cellId) {
 
                 1 -> btn1
                 2 -> btn2
