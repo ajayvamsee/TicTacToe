@@ -165,9 +165,13 @@ class MainActivity : AppCompatActivity() {
 
         // Announce Winner
         if (winner == 1) {
+            player1Count+=1
             Toast.makeText(this, "Player 1 WON", Toast.LENGTH_LONG).show()
+            restartGame()
         } else if (winner == 2) {
+            player2Count+=1
             Toast.makeText(this, "Player 2 is WON", Toast.LENGTH_LONG).show()
+            restartGame()
         }
 
 
@@ -211,8 +215,13 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+
+
     var player1Count=0
     var player2Count=0
+
+
+
 
     fun restartGame(){
         activePlayer=1
