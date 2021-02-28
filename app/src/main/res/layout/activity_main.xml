@@ -21,6 +21,7 @@
             android:layout_height="40pt"
             android:background="@color/white"
             android:onClick="btnPress"
+            android:textSize="35dp"
             android:textColor="@color/black" />
 
         <Button
@@ -30,6 +31,7 @@
             android:layout_marginLeft="3pt"
             android:background="@color/white"
             android:onClick="btnPress"
+            android:textSize="35dp"
             android:textColor="@color/black" />
 
         <Button
@@ -39,6 +41,7 @@
             android:layout_marginLeft="3pt"
             android:background="@color/white"
             android:onClick="btnPress"
+            android:textSize="35dp"
             android:textColor="@color/black" />
     </TableRow>
 
@@ -55,6 +58,7 @@
             android:layout_height="40pt"
             android:background="@color/white"
             android:onClick="btnPress"
+            android:textSize="35dp"
             android:textColor="@color/black" />
 
         <Button
@@ -64,6 +68,7 @@
             android:layout_marginLeft="3pt"
             android:background="@color/white"
             android:onClick="btnPress"
+            android:textSize="35dp"
             android:textColor="@color/black" />
 
         <Button
@@ -73,6 +78,7 @@
             android:layout_marginLeft="3pt"
             android:background="@color/white"
             android:onClick="btnPress"
+            android:textSize="35dp"
             android:textColor="@color/black" />
 
 
@@ -91,6 +97,7 @@
             android:layout_height="40pt"
             android:background="@color/white"
             android:onClick="btnPress"
+            android:textSize="35dp"
             android:textColor="@color/black" />
 
         <Button
@@ -100,6 +107,7 @@
             android:layout_marginLeft="3pt"
             android:background="@color/white"
             android:onClick="btnPress"
+            android:textSize="35dp"
             android:textColor="@color/black" />
 
         <Button
@@ -109,6 +117,7 @@
             android:layout_marginLeft="3pt"
             android:background="@color/white"
             android:onClick="btnPress"
+            android:textSize="35dp"
             android:textColor="@color/black" />
 
     </TableRow>
